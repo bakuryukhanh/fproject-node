@@ -1,8 +1,8 @@
 import { IAuthenticateGeneric, ICredentialType, INodeProperties } from 'n8n-workflow';
 
 export class FprojectApi implements ICredentialType {
-	name = 'friendGridApi';
-	displayName = 'FriendGrid API';
+	name = 'fprojectApi';
+	displayName = 'Fproject API';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Key',

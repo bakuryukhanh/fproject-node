@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-fproject",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "n8n nodes for fproject",
   "keywords": [
     "n8n-community-node-package"
@@ -29,7 +29,9 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [],
+    "credentials": [
+      "dist/credentials/FprojectApi.credentials.js"
+    ],
     "nodes": [
       "dist/nodes/Fproject/Fproject.node.js"
     ]

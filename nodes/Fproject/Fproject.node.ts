@@ -18,16 +18,16 @@ export class Fproject implements INodeType {
 		},
 		inputs: ['main'],
 		outputs: ['main'],
-		// credentials: [
-		// 	{
-		// 		name: 'friendGridApi',
-		// 		required: true,
-		// 	},
-		// ],
+		credentials: [
+			{
+				name: 'fprojectApi',
+				required: true,
+			},
+		],
 
 		properties: [
 			// Resources and operations will go here
-			{ displayName: 'Api Key', name: 'apiKey', type: 'string', default: '', required: true },
+			// { displayName: 'Api Key', name: 'apiKey', type: 'string', default: '', required: true },
 			{ displayName: 'Month', name: 'month', type: 'string', default: '', required: true },
 			{
 				displayName: 'Year',
@@ -41,10 +41,9 @@ export class Fproject implements INodeType {
 	// The execute method will go here
 	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
 		let responseData;
-		const token = this.getNodeParameter('apiKey', 0) as string;
+		const token = this.getCredentials('apiKey', 0);
 		const month = this.getNodeParameter('month', 0) as string;
 		const year = this.getNodeParameter('year', 0) as string;
-		console.log(month, year);
 		const options: OptionsWithUrl = {
 			headers: {
 				Authorization: `Basic ${token}`,
