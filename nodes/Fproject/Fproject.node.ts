@@ -28,9 +28,9 @@ export class Fproject implements INodeType {
 		properties: [
 			// Resources and operations will go here
 			{ displayName: 'Api Key', name: 'apiKey', type: 'string', default: '', required: true },
-			{ displayName: 'month', name: 'month', type: 'string', default: '', required: true },
+			{ displayName: 'Month', name: 'month', type: 'string', default: '', required: true },
 			{
-				displayName: 'year',
+				displayName: 'Year',
 				name: 'year',
 				type: 'string',
 				default: '',
