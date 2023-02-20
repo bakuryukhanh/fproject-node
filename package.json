@@ -29,9 +29,7 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/Fproject.credentials.js"
-    ],
+    "credentials": [],
     "nodes": [
       "dist/nodes/Fproject/Fproject.node.js"
     ]
@@ -46,5 +44,9 @@
     "n8n-workflow": "*",
     "prettier": "^2.7.1",
     "typescript": "~4.8.4"
+  },
+  "dependencies": {
+    "html-table-to-json": "^1.0.0",
+    "moment": "^2.29.4"
   }
 }

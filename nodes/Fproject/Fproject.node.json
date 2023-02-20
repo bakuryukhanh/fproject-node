@@ -1,19 +1,14 @@
 {
   "node": "n8n-nodes-fproject.fproject",
-  "nodeVersion": "1.0",
+  "nodeVersion": "1.1",
   "codexVersion": "1.0",
   "categories": [
     "Miscellaneous"
   ],
   "resources": {
-    "credentialDocumentation": [
-      {
-        "url": ""
-      }
-    ],
     "primaryDocumentation": [
       {
-        "url": ""
+        "url": "https://github.com/bakuryukhanh/fproject-node"
       }
     ]
   }
