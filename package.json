@@ -33,7 +33,7 @@
       "dist/credentials/Fproject.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/Fproject.node.js"
+      "dist/nodes/Fproject/Fproject.node.js"
     ]
   },
   "devDependencies": {
