@@ -1,5 +1,5 @@
 {
-  "node": "n8n-nodes-base.fproject",
+  "node": "n8n-nodes-fproject.fproject",
   "nodeVersion": "1.0",
   "codexVersion": "1.0",
   "categories": [
