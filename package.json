@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-fproject",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "n8n nodes for fproject",
   "keywords": [
     "n8n-community-node-package"
