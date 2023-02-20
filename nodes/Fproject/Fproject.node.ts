@@ -4,13 +4,13 @@ import { INodeExecutionData, INodeType, INodeTypeDescription } from 'n8n-workflo
 
 import { OptionsWithUri } from 'request';
 
-export class FriendGrid implements INodeType {
+export class Fproject implements INodeType {
 	description: INodeTypeDescription = {
 		// Basic node details will go here
 		displayName: 'Fproject',
 		name: 'fproject',
 		icon: 'file:Fproject.svg',
-		group: ['transform'],
+		group: ['output'],
 		version: 1,
 		description: 'Get KPI from Fproject',
 		defaults: {
